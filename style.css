@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+:root {
+  --fixed_width: 8.333333333333334;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-1 {
+  width: calc(var(--fixed_width) * 1%);
+}
+.col-2 {
+  width: calc(var(--fixed_width) * 2%);
+}
+.col-3 {
+  width: calc(var(--fixed_width) * 3%);
+}
+.col-4 {
+  width: calc(var(--fixed_width) * 4%);
+}
+.col-5 {
+  width: calc(var(--fixed_width) * 5%);
+}
+.col-6 {
+  width: calc(var(--fixed_width) * 6%);
+}
+.col-7 {
+  width: calc(var(--fixed_width) * 7%);
+}
+.col-8 {
+  width: calc(var(--fixed_width) * 8%);
+}
+.col-9 {
+  width: calc(var(--fixed_width) * 9%);
+}
+.col-10 {
+  width: calc(var(--fixed_width) * 10%);
+}
+.col-11 {
+  width: calc(var(--fixed_width) * 11%);
+}
+.col-12 {
+  width: calc(var(--fixed_width) * 12%);
+}
+.logo {
+  font-size: 40px;
+  padding-top: 15px;
+  text-align: center;
+}
+.orange_color {
+  color: rgb(255, 123, 0);
+}
+nav {
+  background-color: rgb(39, 38, 38);
+  color: white;
+}
+#Address{
+  margin-top: 40px;
+}
+.main_navber ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding: 20px;
+}
+.main_navber ul li {
+  list-style-type: none;
+  padding-left: 5px;
+}
+.main_navber ul li a {
+  text-decoration: none;
+  color: rgb(248, 238, 238);
+  font-size: 15px;
+  font-weight: bold;
+}
+.main_navber ul li:nth-child(9) {
+  border-radius: 2px;
+  padding: 10px 10px;
+  margin-left: 25px;
+  background-color: orange;
+}
+.main_navber ul li:nth-child(8) {
+  margin-left: 84px;
+}
+.description h2 {
+  margin-left: 239px;
+  margin-top: 100px;
+}
+.description h2 i {
+  color: rgb(255, 123, 0);
+}
+.description h1 {
+  margin-left: 239px;
+  margin-top: 20px;
+  font-size: 45px;
+}
+.adress ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.adress ul li {
+  list-style-type: none;
+  padding: 8px 25px;
+  font-size: 25px;
+}
+.adress ul li h1{
+  font-size: 25px;
+  display: contents;
+  margin-bottom: 10px;
+  color: rgb(4, 37, 63);
+}
+.adress ul li i{
+  color: rgba(245, 155, 20, 0.788);
+  font-size: 50px;
+}
+.adress ul li p{
+  padding-left: 60px;
+  font-size: 15px;
+  line-height: 25px;
+  color: gray;
+}
+.form{
+  padding-top: 28px;
+}
+.form input{
+  padding: 10px 170px;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-left: -4px;
+  border: 1px solid gray;
+}
+textarea{
+  margin-top: 25px;
+  border-radius: 15px;
+  border: 1px solid gray;
+  width: 500px;
+}
+button{
+  margin-top: 19px;
+  padding: 18px 30px;
+  border-radius: 15px;
+  border: 1px solid gray;
+  background-color: rgb(34, 33, 33);
+  color: white;
+}
+textarea::placeholder{
+  padding: 15px;
+  margin-left: 10px;
+}
+footer{
+  background-color: rgb(39, 38, 38);
+  /* width: 1200px;
+  margin: auto; */
+  margin-top: 80px;
+}
+.follow{
+  color: white;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.social_icon ul{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   padding-top: 30px;
+}
+.social_icon ul li{
+  list-style-type: none;
+  padding: 15px;
+  margin: 10px;
+  background-color: rgb(49, 45, 45);
+}
+.social_icon ul li i{
+  color: white;
+  font-size: 27px;
+}
+.logo2{
+  font-size: 20px;
+  padding-top: 65px;
+  color: antiquewhite;
+  padding-left: 30px;
+}
+.logo2 h1{
+  padding-bottom: 25px;
+}
+.logo2 p{
+  padding-top: 15px;
+}
+.logo2 p i{
+  padding-right:10px ;
+}
+.links{
+  padding-top: 65px;
+  color: antiquewhite;
+  padding-left: 40px;
+}
+.links h1{
+  font-size: 25px;
+  padding-left: 25px;
+}
+.links p{
+  color: gray;
+  line-height: 25px;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+.newsletter{
+  padding-top: 65px;
+  color: antiquewhite;
+  padding-left: 40px;
+  position: relative;
+}
+.newsletter h1{
+  font-size: 25px;
+  padding-left: 25px;
+}
+.newsletter p{
+  color: gray;
+  line-height: 25px;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+input{
+  padding: 15px 29px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.btn{
+  background-color: rgb(214, 146, 18);
+  border: 1px solid;
+  border-radius: 3px;
+  position: absolute;
+  padding: 12px;
+  right: 10px;
+}
+.insta{
+  padding-top: 65px;
+  color: antiquewhite;
+  padding-left: 40px;
+  position: relative;
+}
+.insta h1{
+  font-size: 25px;
+  padding-left: 25px;
+}
+.insta ul{
+display: flex;
+flex-wrap: wrap;
+}
+.insta ul li{
+list-style-type: none;
+padding: 5px 5px;
+}
+.insta ul li img{
+  width: 100px;
+  height: 130px;
+}
+.last_part{
+  color: antiquewhite;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.last_part ul{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-end;
+}
+.last_part ul li{
+  list-style-type: none;
+  padding-left: 20px;
+}
+footer{
+  margin-top: 116px;
+}
+.Menu{
+  display: none;
+}
+/* ......................................... */
+/* header,
+#Description,
+#Address,
+footer{
+  width: 1200px;
+  margin: auto;
+} */

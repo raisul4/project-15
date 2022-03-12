@@ -1,0 +1,211 @@
+@media (min-width: 320px) and (max-width: 575.9px) {
+  .description h2 {
+    margin-left: 31px;
+    margin-top: 100px;
+  }
+  .description h1 {
+    margin-left: 33px;
+    margin-top: 20px;
+    font-size: 45px;
+  }
+  .form input {
+    padding: 10px 61px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 16px;
+    border: 1px solid gray;
+  }
+  textarea {
+    margin-top: 25px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    width: 299px;
+    margin-left: 13px;
+  }
+  button {
+    margin-top: 19px;
+    padding: 14px 14px;
+    border-radius: 15px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    margin-left: 13px;
+  }
+  .social_icon ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .newsletter {
+    padding-top: 65px;
+    color: antiquewhite;
+    position: relative;
+    padding: 0;
+    padding-top: 86px;
+  }
+  .btn {
+    background-color: rgb(214, 146, 18);
+    border: 1px solid;
+    border-radius: 3px;
+    position: absolute;
+    padding: 12px;
+    right: 78px;
+  }
+  .last_part {
+    color: antiquewhite;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    text-align: center;
+    padding: 47px;
+  }
+  .insta ul li img {
+    width: 100px;
+    height: 138px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .container {
+    width: 576px;
+  }
+  .description h2 {
+    margin-left: 31px;
+    margin-top: 100px;
+  }
+  .description h1 {
+    margin-left: 33px;
+    margin-top: 20px;
+    font-size: 45px;
+  }
+  .form input {
+    padding: 10px 46px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 16px;
+    border: 1px solid gray;
+  }
+  textarea {
+    margin-top: 25px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    width: 262px;
+    margin-left: 13px;
+  }
+  button {
+    margin-top: 19px;
+    padding: 14px 14px;
+    border-radius: 15px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    margin-left: 13px;
+  }
+  .social_icon ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .social_icon ul li i {
+    color: white;
+    font-size: 15px;
+  }
+  .newsletter {
+    padding-top: 65px;
+    color: antiquewhite;
+    position: relative;
+    padding: 0;
+    padding-top: 86px;
+  }
+  .btn {
+    background-color: rgb(214, 146, 18);
+    border: 1px solid;
+    border-radius: 3px;
+    position: absolute;
+    padding: 12px;
+    right: 335px;
+  }
+  .last_part {
+    color: antiquewhite;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+  .last_part ul li {
+    list-style-type: none;
+    padding: 0;
+  }
+  .insta ul li img {
+    width: 100px;
+    height: 138px;
+  }
+  .logo2 {
+    font-size: 20px;
+    padding-top: 65px;
+    padding-left: 28px;
+    color: antiquewhite;
+  }
+  .follow {
+    color: white;
+    padding-top: 50px;
+    padding-left: 28px;
+  }
+  .insta {
+    padding-top: 65px;
+    color: antiquewhite;
+    padding-left: 28px;
+    position: relative;
+  }
+}
+/* @media (min-width: 768px) and (max-width: 991.9px) {
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
+} */
+@media (max-width: 767.9px) {
+  .main_navber ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 171px;
+    flex-direction: column;
+    background-color: gray;
+    position: fixed;
+    top: 61px;
+    right: 0;
+    z-index: 2;
+    width: 447px;
+    height: 100vh;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s linear;
+  }
+  .main_navber ul li a {
+    color: white;
+  }
+  .main_navber ul li {
+    padding: 10px;
+    text-align: justify;
+  }
+  .main_navber ul li:nth-child(8){
+      margin: 0;
+  }
+  .main_navber ul li:nth-child(9){
+      margin: 0;
+  }
+  .Menu {
+    font-size: 33px;
+    padding-top: 8px;
+    color: rgb(218, 135, 11);
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+  .main_navber ul.nav_active {
+    opacity: 1;
+    visibility: visible;
+  }
+  .main_navber ul li a:hover,
+  .main_navber ul li a.active{
+    color: rgb(238, 135, 18);
+  }
+  .Menu {
+    display: block;
+  }
+}
