@@ -85,6 +85,9 @@ nav {
   font-size: 15px;
   font-weight: bold;
 }
+.main_navber ul li a:hover{
+  color: orange;
+}
 .main_navber ul li:nth-child(9) {
   border-radius: 2px;
   padding: 10px 10px;
